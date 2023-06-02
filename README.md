@@ -61,8 +61,9 @@
 
 
 * 如果你想使用不同的陀螺仪
-得益于 rt-thread 的完善的驱动框架,你可能只需要更改陀螺仪的初始化函数和读取函数
-   
+
+    得益于 rt-thread 的完善的驱动框架,你可能只需要更改陀螺仪的初始化函数和读取函数
+
     1. 修改 ahrs_init 中的 ahrs_handler->mpu 指针,使其新指向 rt-thread 的xxx_init 陀螺仪初始化函数
 
     2. mpu_calc_task 函数中的读取原始 accel 和 gyro 的函数需要改成 rt-thread 实现的陀螺仪驱动
