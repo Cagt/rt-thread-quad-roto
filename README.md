@@ -14,26 +14,27 @@
  配套硬件:
 
  ## 业务代码文件结构
-    \---inc
-    |       ahrs_task.h
-    |       arm_math.h
-    |       blue_tooth_debug_task.h
-    |       control_task.h
-    |       filter_lib.h
-    |       includes.h
-    |       pid_algorithm.h
-    |       remote_ctr_task.h
-    |       
-    \---src
-        |   main.c
-        |   pid_algorithm.c
-        |   
-        \---thread_task
-                ahrs_task.c
-                blue_tooth_debug_task.c
-                control_task.c
-                filter_lib.c
-                remote_ctr_task.c
+    \---application
+        \---inc
+        |       ahrs_task.h
+        |       arm_math.h
+        |       blue_tooth_debug_task.h
+        |       control_task.h
+        |       filter_lib.h
+        |       includes.h
+        |       pid_algorithm.h
+        |       remote_ctr_task.h
+        |       
+        \---src
+            |   main.c
+            |   pid_algorithm.c
+            |   
+            \---thread_task
+                    ahrs_task.c
+                    blue_tooth_debug_task.c
+                    control_task.c
+                    filter_lib.c
+                    remote_ctr_task.c
 
  * ahrs_task.c/h ：是姿态解算模块的实现。
  * blue_tooth_debug_task.c/h ：是无人机模块的蓝牙调试和遥控模块
