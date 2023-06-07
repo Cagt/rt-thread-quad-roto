@@ -1,5 +1,5 @@
 # STM32-RT-thread 四旋翼无人机
-作者 Cagt (From Guangdong Ocean University)
+作者 gdou_ldh (From Guangdong Ocean University)
 
 ## 目录
 * [项目简介](#项目简介)
